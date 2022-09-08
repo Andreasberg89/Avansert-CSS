@@ -12,6 +12,7 @@ header nav ul{
 
 header nav ul li{
     display: inline-block;
+    margin: 0 0.5rem;
 }
 
 header nav a{
@@ -21,18 +22,30 @@ header nav a{
     margin: 0 0.5rem
 }
 
+
 nav{
     overflow: auto;
     background-color: rgb(151, 215, 231);
+    padding: 1rem;
 }
 
 #front-page-container{
     margin: 2rem 0;
     max-width: 1200px;
     width: 100%;
+    overflow: auto;
 }
 
 main{
     width: 80%;
     float: left;
+}
+
+aside{
+    width: 20%;
+    float: left;
+}
+
+footer{
+    clear: both;
 }
